@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* border: 1px solid black; */
+    width: 98%;
+    height: 840px;
+}
+.heading{
+    border: 1px solid black;
+    text-align: center;
+    background: linear-gradient(to right, red,green,aquamarine,rgb(18, 248, 75),yellow);
+    height: 25px;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+.parent-C{
+    border: 2px solid brown;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(7, 223, 223);
+    width: 600px;
+    height: 55px;
+    position: relative;
+    left: 350px;
+}
+ul{
+ padding-left: 230px;
+ padding-right: 200px;
+}
+
+.parent-A{
+    padding: 10px;
+    height: 120px;
+    border: 1px solid rgb(170, 7, 7);
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.child{
+    height: 60px;
+    border: 1px solid rgb(20, 41, 14);
+    border-radius: 5px;
+    background-color: aqua;
+    text-align: center;
+}
+.item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.item2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.item3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.item4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -20px;
+}
+ h2{
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline brown;
+    background-image: linear-gradient(to right,red,rgb(248, 248, 113),red);
+ }
+ .parent-B{
+    height: 190px;
+    border: 1px solid rgb(22, 63, 9);
+    background-image: radial-gradient(rgb(16, 16, 245),rgb(100, 145, 241),rgb(174, 248, 104)) ;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+ }
+ .box{
+    width: 200px;
+    height: 90px;
+    border: 1px solid brown;
+    border-radius: 9px;
+    background-color: yellow;
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+    line-height: 30px;
+    font-weight: bold;
+ }
+
+.parent{
+    width: 99.5%;
+    display: grid;
+    grid-template-columns: auto auto auto 80px;
+     gap: 5px; 
+    border: 1px solid black;
+    margin: 5px;
+}
+.item{
+    border: 1px solid black;
+    height: 20px;
+    text-align: center;
+
+}
+.child1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    height: 40px;
+    background-color: rgb(253, 18, 57);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 5px;
+
+}
+.child2{
+    grid-column: 1/2;
+    grid-row:2/3 ;
+    height: 80px;
+    background-color: rgb(189, 247, 103);
+    font-size: 29px;
+    color: white;
+    font-weight: bold;
+}
+.child3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 80px;
+    text-align: start;
+    background-color: rgb(76, 189, 241);
+    font-size: 29px;
+    color: white;
+    font-weight: bold;
+}
+.child4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 80px;
+    text-align: start;
+    background-color: rgb(62, 49, 241);
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+.child5{
+    grid-column:4/5 ;
+    grid-row: 2/4;
+    height: 185px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-decoration: underline;
+}
+ol li{
+    text-align: start;
+    margin-left: 16px;
+}
+.child6{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    height: 90px;
+    text-align: start;
+    background-color: rgb(235, 188, 35);
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+}
+.child7{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    height: 20px;
+    background-color: rgb(18, 226, 253);
+    color: rgb(8, 7, 7);
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
